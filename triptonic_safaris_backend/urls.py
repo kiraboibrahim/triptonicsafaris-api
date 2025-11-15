@@ -22,3 +22,9 @@ urlpatterns = [
     path("api/bookings/", include("bookings.urls")),
     path("api/leads/", include("leads.urls")),
 ]
+
+
+# Customize the admin site headers
+admin.site.site_header = "Triptonic Safaris Admin"
+admin.site.site_title = "Triptonic Safaris Admin Portal"
+admin.site.index_title = "Welcome to Triptonic Safaris Admin Portal"
